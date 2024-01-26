@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+</head>
+<body>
+    <h1>My Play List</h1>
+
+    <h3>By Ritesh</h3>
+    <br>
+    <hr>
+    <br>
+    <!-- controls -use to give the all control of audio to use mean play,pause ike that
+         autoplay - when you want to play automatically when user open this webpage
+         muted - is use to mute tha audio when use want he can unmute it can be use in autoplay also in regualr
+         loop - it use to when song gets end then it will automaticalyy start again and again
+          type - use in case when your browser does not suppoting your audio file then it will go for other   -->
+
+         <!-- see agar apko audio sunanahi hai to hum contorls nikal lenge but agar apko as par use chahiye to use it  -->
+                   <!--autoplay -->
+    <p>Jai Shri Ram</p>
+    <audio controls loop  >
+        <source src="/songs/1.mp3"  >  
+        <!-- <source src="/songs/1.mp3" type="audio.mpeg">   mpeg-means mp3 file -->
+        <!-- <source src="/songs/1.mp3" type="audio.web">   (download) backup if firstone not supported -->
+    </audio>
+    <br>
+    <p>bhagvaa rang</p>
+    <audio src="/songs/2.mp3" controls loop title="bhagvaa rang" width="400px"> </audio>
+</body>
+</html>
